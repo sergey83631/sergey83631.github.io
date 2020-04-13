@@ -8,25 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Esnykers</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js">
+    </script>
     </head>
     <body>
-      <header class="header">
+      <header class="header" id="header">
         <div class="container">
           <nav class="nav">
-            <a class="nav__link" href="#" data-scroll="#features">Магазин</a>
-            <a class="nav__link" href="#" data-scroll="#works">О нас</a>
-            <a class="nav__link" href="#" data-scroll="#team">Где купить</a>
-            <a class="nav__link" href="#" data-scroll="#reviews">FAQ</a>
-            <a class="nav__link" href="#" data-scroll="#download">Контакты</a>
-            <a class="nav--link" href="#" data-scroll="#buy">
-              <button class="btn"><i class="fa fa-folder"></i> Buy</button>
+            <a class="nav__link" href="#">Магазин</a>
+            <a class="nav__link" href="#">О нас</a>
+            <a class="nav__link" href="#">Где купить</a>
+            <a class="nav__link" href="#">FAQ</a>
+            <a class="nav__link" href="#">Контакты</a>
+            <a class="nav--link" href="#">
+            <button class="btn"><i class="fa fa-folder"></i> Buy</button>
             </a>
-
           </nav>
+          <button class="burger" type="button">
+            <span class="burger-item">Menu</span>
+          </button>
         </div>
       </header>
       <!-- INTRO -->
-      <div class="intro">
+      <div class="intro" id="intro">
         <div class="container">
           <div class="intro__inner">
           <h1 class="intro-title">
@@ -43,7 +47,7 @@
       </div>
     </div>
     <!-- PRODUCT -->
-    <div class="product">
+    <div class="product" id="product">
       <div class="product-item">
         <img class="product-photo photo" src="img/photo-1.jpg" alt="">
       </div>
@@ -80,5 +84,7 @@
     </div>
     </div>
 
+    <script src="app.js">
+    </script>
   </body>
 </html>
