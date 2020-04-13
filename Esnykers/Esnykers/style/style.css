@@ -1,0 +1,230 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #6c7279;
+  margin: 0;
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+/* p{
+  margin: 0 0 10px;
+} */
+
+/* Container */
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* HEADER */
+.header{
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:1000;
+  background-color: black;
+}
+
+
+
+/* NAV */
+.nav{
+  display: flex;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-left: 40px;
+}
+.nav__link{
+  margin-left: 50px;
+  color: #fff;
+  text-decoration: none;
+  orphans:.75;
+  transition: opacity .2s linear;
+}
+
+nav__link:first-child{
+  margin-left: 0;
+}
+
+.nav__link:hover{
+  color: #cf8f0e;
+  opacity: 1;
+}
+
+.nav--link{
+  margin: 0 0 0 auto;
+}
+
+.btn {
+    /* background-color: DodgerBlue; /* Blue background */ */
+    /* border: none; /* Remove borders */
+    color: white; /* White text */ */
+    font-size: 18px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: #623899;
+}
+
+/* INTRO */
+.intro{
+  /*
+
+
+
+  background-image: url('..img/background.jpg');
+
+  background-size: cover; */
+  display: flex;
+  height: 750px;
+  padding-top:100px;
+  justify-content: center;
+  flex-direction:column;
+  background-image: url('../img/background.jpg');
+  color: #ffffff;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  background-attachment: relative;
+  background-position: center center;
+}
+
+.intro__inner{
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(155, 156, 148, .9);
+
+}
+
+.intro-title{
+  display: flex;
+  margin: 0 0 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 85px;
+  line-height: 1,1;
+  color: #fff;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+
+
+}
+
+.intro-title p{
+  color: #e8b90e;
+  letter-spacing: 55px;
+  margin-left: 20px;
+  text-align: center;
+
+}
+
+.intro-title .ss{
+  color: #000000;
+}
+
+.intro-title .yy{
+    color: #e80909;
+}
+
+.intro-title .ee{
+  color: #8c0707;
+}
+
+.intro-title .sss{
+  color: #09bdba;
+}
+
+/* PRODUCT */
+
+.product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-item{
+  width: 30%;
+  height: 350px;
+
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-item:hover{
+  opacity: 1;
+}
+
+.product-photo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+
+
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* Soc */
+.social{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+
+/* COPYRIGHT */
+.copyright{
+  padding: 20px 0;
+  background-color: #F9C402;
+}
+
+.copyright-text{
+  text-align: center;
+  font-size: 14px;
+   line-height: 1,5;
+   color: #030303;
+}
+
+.copyright-text span{
+  color: #fff;
+}
