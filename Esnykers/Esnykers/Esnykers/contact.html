@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Esnykers</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js">
+    </script>
+    </head>
+    <body>
+      <header class="header" id="header">
+        <div class="container">
+            <ul class="nav">
+              <!-- <nav class="nav"> -->
+            <li class="nav__link"><a class="nav-nav" href="index.html">Магазин</a></li>
+            <li class="nav__link"><a class="nav-nav" href="about.html">О нас</a></li>
+            <li class="nav__link"><a class="nav-nav" href="buy.html">Где купить</a></li>
+            <li class="nav__link"><a class="nav-nav" href="faq.html">FAQ</a></li>
+            <li class="nav__link"><a class="nav-nav" href="contact.html">Контакты</a></li>
+            <!-- <a class="nav--link" href="#">
+            <button class="btn"><i class="fa fa-folder"></i> Buy</button>
+            </a> -->
+            <!-- </nav> -->
+          </ul>
+        </div>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li><a class="menu__item" href="index.html">Магазин</a></li>
+              <li><a class="menu__item" href="about.html">О нас</a></li>
+              <li><a class="menu__item" href="buy.html">Где купить</a></li>
+              <li><a class="menu__item" href="faq.html">FAQ</a></li>
+              <li><a class="menu__item" href="contact.html">Контакты</a></li>
+            </ul>
+          </div>
+          <!-- <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Главная</a></li>
+            <li><a class="menu__item" href="#">Проекты</a></li>
+            <li><a class="menu__item" href="#">Команда</a></li>
+            <li><a class="menu__item" href="#">Блог</a></li>
+            <li><a class="menu__item" href="#">Контакты</a></li>
+          </ul> -->
+        </div>
+        </div>
+      </header>
+      <!-- INTRO -->
+      <!-- <div class="intro" id="intro">
+        <div class="container">
+          <div class="intro__inner">
+          <h1 class="intro-title">
+            <p>E</p>
+            <p class="ss">s</p>
+            <p>n</p>
+            <p class="yy">y</p>
+            <p>k</p>
+            <p class="ee">e</p>
+            <p>r</p>
+            <p class="sss">s</p>
+          </h1>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- CONTACT -->
+    <div class="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <h4 class="contact-title">Контакты</h4>
+        </div>
+      </div>
+        <div class="container" id="w">
+        <form class="forma" id="contactform" name="contact" method="post" action="#">
+        <p class="note"><span class="req">*</span> Поля со звездочкой обязательны для заполнения</p>
+        <div class="row">
+        <label for="name">Ваше Имя <span class="req">*</span></label>
+        <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Стив Джобс" required>
+        </div>
+
+        <div class="row">
+        <label for="email">E-mail Адрес <span class="req">*</span></label>
+        <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder=" address@mail.ru" required>
+        </div>
+
+        <div class="row">
+        <label for="subject">Тема <span class="req">*</span></label>
+        <input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="Тема письма" required>
+        </div>
+
+        <div class="row">
+        <label for="message">Сообщение <span class="req">*</span></label>
+        <textarea name="message" id="message" class="txt" tabindex="4" placeholder="Текст" required></textarea>
+        </div>
+
+        <button class="center">
+        <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Отправить Сообщение">
+      </button>
+        </form>
+    </div>
+  </div>
+    <!-- FOOTER -->
+    <div class="copyright">
+      <div class="social">
+      <div class="social twitter">
+        <a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+      </div>
+      </div>
+      <div class="container">
+      <div class="copyright-text">
+        © 2020 Магазин кроссовок "Esnykers"
+      </div>
+    </div>
+    </div>
+
+    <script src="app.js">
+    </script>
+  </body>
+</html>
