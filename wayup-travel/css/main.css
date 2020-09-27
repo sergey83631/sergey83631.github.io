@@ -248,3 +248,27 @@ footer{
         width: 100%;
     }
 }
+
+@media screen and (max-width: 360px){
+    .container{
+        width: 90%;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .free-time{
+        width: 300px;
+    padding: 50px 0 0 50px;
+    }
+    .travel{
+        width: 300px;
+    padding: 50px 0 0 50px;
+    }
+    .cash{
+        width: 300px;
+    padding: 50px 0 0 50px;
+    }
+    .forms{
+        width: 100%;
+    }
+}
