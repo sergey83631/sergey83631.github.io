@@ -12,6 +12,10 @@ div, p, input, button, form, span, a, ul, li {
 	box-sizing: border-box;
 }
 
+h2, h3{
+    font-size: 30px;
+}
+
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -23,6 +27,7 @@ div, p, input, button, form, span, a, ul, li {
     padding-top: 100px;
 	padding-bottom: 225px;
     color: #fff;
+    align-items: center;
 }
 
 .wrapper {
@@ -30,9 +35,9 @@ div, p, input, button, form, span, a, ul, li {
 	justify-content: space-between;
 }
 
-.offer {
-	margin-top: 176px;
-	width: 490px;
+.offer{
+    width: 490px;
+    margin-top: 166px;
 }
 
 .title {
@@ -78,22 +83,26 @@ div, p, input, button, form, span, a, ul, li {
 .skills{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 70px;
 }
 
-.free-time{
-    width: 300px;
-    padding: 50px 100px 0 0;
+.skill{
+    width: 350px;
+    background: url(../img/icon1.png) no-repeat top center;
+    padding-top: 100px;
 }
 
-.travel{
-    width: 300px;
-    padding: 50px 0 0 0;
+.skill-travel{
+    width: 350px;
+    background: url(../img/icon2.png) no-repeat top center;
+    padding-top: 100px;
 }
 
-.cash{
-    width: 300px;
-    padding: 50px 0 0 100px;
+.skill-cash{
+    width: 350px;
+    background: url(../img/icon3.png) no-repeat top center;
+    padding-top: 100px;
 }
 
 .forms{
@@ -167,6 +176,7 @@ div, p, input, button, form, span, a, ul, li {
 footer{
     background-color: #164d7a;
     display: flex;
+    padding: 30px 0 30px 0;
 }
 
 .footer p{
@@ -232,43 +242,175 @@ footer{
     .skills{
         flex-direction: column;
     }
-    .free-time{
-        width: 300px;
-    padding: 50px 0 0 50px;
+    .skill{
+    width: auto;
+    background: url(../img/icon1.png) no-repeat top center;
+    padding-top: 100px;
+    padding-bottom: 50px;
     }
-    .travel{
-        width: 300px;
-    padding: 50px 0 0 50px;
+    .skill-travel{
+    width: auto;
+    background: url(../img/icon2.png) no-repeat top center;
+    padding-top: 100px;
+    padding-bottom: 50px;
     }
-    .cash{
-        width: 300px;
-    padding: 50px 0 0 50px;
+    .skill-cash{
+    width: auto;
+    background: url(../img/icon3.png) no-repeat top center;
+    padding-top: 100px;
+    padding-bottom: 50px;
     }
     .forms{
         width: 100%;
     }
+
+    .folder-form{
+        width: auto;
+        padding-top:50px ;
+    }
+
+    .name{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 380px;
+        text-align: center;
+    }
+    
+    .email{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 380px;
+        text-align: center;
+        margin: 30px 0;
+    }
+    
+    .phone{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 380px;
+        text-align: center;
+        margin: 0 0 20px;
+    }
+
+    .plan{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 380px;
+        text-align: center;
+        margin: 0 0 20px;
+    }
+
+    .btn-form {
+        border: 0;
+        cursor: pointer;
+        display: inline;
+        width: 380px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #ffd429;
+        padding: 19px 0;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease;
+    
+    }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 380px){
     .container{
         width: 90%;
     }
     .skills{
         flex-direction: column;
     }
-    .free-time{
-        width: 300px;
-    padding: 50px 0 0 50px;
+   .skill{
+    width: auto;
+    background: url(../img/icon1.png) no-repeat top center;
+    padding-top: 100px;
+    padding-bottom: 50px;
     }
-    .travel{
-        width: 300px;
-    padding: 50px 0 0 50px;
+    .skill-travel{
+    width: auto;
+    background: url(../img/icon2.png) no-repeat top center;
+    padding-top: 100px;
+    padding-bottom: 50px;
     }
-    .cash{
-        width: 300px;
-    padding: 50px 0 0 50px;
+    .skill-cash{
+    width: auto;
+    background: url(../img/icon3.png) no-repeat top center;
+    padding-top: 100px;
+    padding-bottom: 50px;
     }
     .forms{
         width: 100%;
+    }
+
+    .folder-form{
+        width: auto;
+        padding-top:50px ;
+    }
+
+    .name{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 350px;
+        text-align: center;
+    }
+    
+    .email{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 350px;
+        text-align: center;
+        margin: 30px 0;
+    }
+    
+    .phone{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 350px;
+        text-align: center;
+        margin: 0 0 20px;
+    }
+
+    .plan{
+        border: 1px solid #bfb8d1;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        height: 54px;
+        width: 350px;
+        text-align: center;
+        margin: 0 0 20px;
+    }
+
+    .btn-form {
+        border: 0;
+        cursor: pointer;
+        display: inline;
+        width: 350px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #ffd429;
+        padding: 19px 0;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease;
+    
     }
 }
