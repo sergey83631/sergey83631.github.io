@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -13,25 +14,25 @@
 		<div class="container">
 			<img src="img/logo_(1).png" alt="WAYUP" class="logo">
 			<div class="wrapper">
-				<div class="offer">
+				<div class="offer animated fadeInDown">
 					<h1 class="title">
 						С помощью верстки я создам ту жизнь, о которой <span class="dream">мечтаю!</span>
 					</h1>
-					<p class="intro">
+					<p class="intro" >
 						Я прохожу курс от WAYUP и становлюсь лучше с каждым днем. Просто сказка! Меня ждут дорогие заказы и творчество.
 					</p>
-					<a href="#" class="btn">Узнать больше</a>
+					<a href="#" class="btn" id="btn">Узнать больше</a>
 				</div>
-				<img src="img/desktop.png" alt="Code desktop" class="desktop">
+				<img src="img/desktop.png" alt="Code desktop" class="desktop animated flipInX">
 			</div>
 		</div>
     </header>
-    <section class="learn">
+    <section class="learn" id="learn">
         <div class="container">
             <h2>Что меня ждет впереди</h2>
-            <div class="skills">
+            <div class="skills animated">
                 <div class="skill">
-                <h3 class="skill-title">Свободное время</h3>
+                <h3 class="skill-title" >Свободное время</h3>
                 <p class="skill-text">Мне нужно свободное время на семью и самое настоящее</p>
                 </div>
                 <div class="skill-travel">
@@ -45,11 +46,11 @@
             </div>  
         </div>
     </section>
-    <section class="forms">
+    <section class="forms" id="forms">
         <div class="container">
             <h3>Форма заказа билета в будущее</h3>
             <form action="#" class="folder-form">
-                <input type="text" placeholder="Имя" class="name">
+                <input type="text" placeholder="Имя" class="name ">
                 <input type="text" placeholder="E-mail" class="email">
                 <input type="text" placeholder="Телефон" class="phone">
                 <input type="text" placeholder="Куда я полечу ближайшее время" class="plan">
@@ -62,5 +63,7 @@
             <p>© Все мои мечты защищены моим трудолюбием</p>
         </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
