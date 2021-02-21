@@ -16,6 +16,10 @@ if (guess === null && guess === NaN) {
     alert('Введите, пожалуйста, одну букву');
 }else{
     for (var j = 0; j < word.length; j++){
+        var letterWasEntered = answerArray[j] === guess;
+        if (letterWasEntered) {
+        alert("Вы уже вводили эту букву");
+        break;}
         if (word[j] === guess){
             answerArray[j] = guess;
             remainingLetters--;
